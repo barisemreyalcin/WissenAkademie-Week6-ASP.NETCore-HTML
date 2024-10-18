@@ -1,0 +1,126 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Tables</title>
+</head>
+<body>
+    <!--
+        Verileri table elementinde tutabiliriz
+        - Row: tr
+        - Column: td
+        - Attributes: width, height, border, colspan, rowspan, cellspacing, cellpadding
+    -->
+
+    <table width="450" cellspacing="5" cellpadding="2" border="1">
+        <tr>
+            <td>First Name</td>
+            <td>Last Name</td>
+            <td>Score</td>
+        </tr>
+        <tr>
+            <td>Ussain</td>
+            <td>Moon</td>
+            <td>100</td>
+        </tr>
+        <tr>
+            <td>Owen</td>
+            <td>Pool</td>
+            <td>80</td>
+        </tr>
+        <tr>
+            <td>Rony</td>
+            <td>Harrington</td>
+            <td>85</td>
+        </tr>
+        <tr>
+            <td>Jackson</td>
+            <td>Irving</td>
+            <td rowspan="2">95</td>
+        </tr>
+        <tr>
+            <td>Aaron</td>
+            <td>James</td>
+        </tr>
+        <tr>
+            <td colspan="3">
+                <center><b>MIDTERM RESULTS</b></center>
+            </td>
+        </tr>
+    </table>
+
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+
+    <table border="1" cellpadding="0" width="800">
+        <thead>
+            <tr>
+                <th>Player</th>
+                <th>Point</th>
+                <th>Rebound</th>
+                <th>Assist</th>
+                <th>Steal</th>
+                <th>Block</th>
+                <th>Minute</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Kobe Bryant</td>
+                <td>42</td>
+                <td>8</td>
+                <td>6</td>
+                <td>3</td>
+                <td>2</td>
+                <td>39</td>
+            </tr>
+            <tr>
+                <td>Pau Gasol</td>
+                <td>22</td>
+                <td>15</td>
+                <td>4</td>
+                <td>1</td>
+                <td>3</td>
+                <td>38</td>
+            </tr>
+            <tr>
+                <td>Lamar Odom</td>
+                <td>12</td>
+                <td>8</td>
+                <td>2</td>
+                <td>1</td>
+                <td>2</td>
+                <td>29</td>
+            </tr>
+            <tr>
+                <td>Derek Fisher</td>
+                <td>11</td>
+                <td>3</td>
+                <td>6</td>
+                <td>1</td>
+                <td>0</td>
+                <td>32</td>
+            </tr>
+            <tr>
+                <td>Ron Artest</td>
+                <td>9</td>
+                <td>5</td>
+                <td>3</td>
+                <td>2</td>
+                <td>0</td>
+                <td>30</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="7">
+                    <center><b>Los Angeles Lakers Stats</b></center>
+                </td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
